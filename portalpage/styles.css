@@ -1,0 +1,122 @@
+body {
+    background-color: #5c2d73;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: black;
+}
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;}
+
+.logo {
+    text-align: center;}
+.logo img {
+    width: 150px;
+}
+#welcome_id {
+    background-color: #9679a7;
+    color: black;
+    text-align: center;
+    padding: 30px;}
+#welcome_id h1 {
+    font-size: 30px;}
+
+#welcome_id p {
+    font-size: 18px;
+}
+button {
+    background-color:#ff1a88;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.site_name {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.menu_drop {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #fed401;
+    color: black;
+    width: 150px;
+}
+
+
+.drop_cont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+  
+}
+
+
+.drop_cont a {
+    display: block;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.drop_cont a:hover {
+    background-color: #ddd;
+}
+
+
+.menu_drop:hover .drop_cont {
+    display: block;
+}
+
+
+.random-project {
+    background-color: #9679a7;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.random-project h3 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerlinks {
+    margin-bottom: 15px;
+}
+
+.footerlinks a {
+    color: black;
+    margin: 10px;
+    text-decoration: wavy;
+}
+
+.footerlinks a:hover {
+    text-decoration: wavy;
+    color: black;
+}
+

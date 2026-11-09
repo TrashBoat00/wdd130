@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyson J's WDD130 Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <div class="logo"> 
+            <img src="images/logo.webp" alt="logo">
+        </div>
+        
+        <div id="welcome_id">
+            <h1>Welcome To My Spectacular Portal Page</h1>
+            <p>Would You Like To Find Your Nearest Taco Bell?</p>
+            <button onclick="findtbell()">
+                Find Nearest Taco Bell!
+            </button>
+        </div>
+
+        <div class="site_name">
+            <h2>Crazy Stuff I Cooked Up In WDD130...</h2>
+        </div>
+    
+
+    <nav>
+        <div class="menu_drop">
+            <button class="dropbtn">WWR</button>
+                <div class="drop_cont">
+                    <a href="wwr/index.html">index</a>
+                    <a href="wwr/contactus.html">Contact us</a>
+                    <a href="wwr/site-plan-rafting.html">Site Plan</a>
+                </div>
+        
+        <div class="menu_drop">
+            <button class="dropbtn">ICE</button>
+                <div class="drop_cont">
+                    <a href="ice/apostle_spotlight/apostles.html">Apostles Spotligght</a> 
+                    <a href="ice/grid_flags/flags.html">Flags</a>
+                    <a href="ice/halloween/index.html">Halloween Special</a>
+                    <a href="ice/favorite_devo/favdevo.html">favorite_devo</a>
+                    <a href="ice/positioning/positioning.html">positioning</a>
+                    <a href="ice/signup/signup.html">Sign-Up</a>
+                    
+                </div>
+
+    
+        </nav>
+      
+            </aside>
+        <section class="random-project">
+            <h3>Feeling Lucky?</h3>
+            <p>Check This Crazy Ahhh Project I Whipped Up! </p>
+            <button onclick="randomProject()">Show Me a Random Project</button>
+        </section>
+            </div>
+        <footer>
+            <div class="footerlinks">
+                <a href="https://www.linkedin.com/in/samuel-jerauld-1b7072168/">Linkedin</a>
+                <a href="https://www.churchofjesuschrist.org/?lang=eng">My Church</a>
+                <a href="https://www.byui.edu/">Where I Go To School</a>
+                
+        
+            </div>
+            <p>&copy; 2026 Tyson Jerauld</p>
+        </footer>
+    </div>
+    <script>
+        function findtbell() {
+            window.open(
+                "https://www.google.com/maps/search/Taco+Bell+near+me",
+                "_blank"
+            );
+        }
+        function randomProject() {
+    const projects = [
+        "wwr/index.html",
+        "wwr/contactus.html",
+        "wwr/site-plan-rafting.html",
+        "ice/apostle_spotlight/apostles.html",
+        "ice/grid_flags/flags.html",
+        "ice/halloween/index.html",
+        "ice/favorite_devo/favdevo.html",
+        "ice/positioning/positioning.html",
+        "ice/signup/signup.html"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * projects.length);
+
+    window.open(projects[randomIndex], "_blank");
+}
+    </script>
+    
+
+
+</body>
+</html> 
